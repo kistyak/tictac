@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #42855B;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.kistyak.tictac.HelloController">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="400.0" style="-fx-background-color: #90B77D;">
+         <children>
+            <Label layoutX="14.0" layoutY="11.0" prefHeight="31.0" prefWidth="284.0" text="TIC TAC TOE GAME" textFill="#483838">
+               <font>
+                  <Font name="Calibri Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="newGame" layoutX="142.0" layoutY="424.0" mnemonicParsing="false" style="-fx-background-color: #42855B; -fx-border-radius: 10; -fx-border-color: #90B77D; -fx-border-width: 2;" text="NEW GAME" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="secondCenter" layoutX="168.0" layoutY="218.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="thirdCenter" layoutX="232.0" layoutY="218.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="firstCenter" layoutX="104.0" layoutY="218.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="secondDown" layoutX="168.0" layoutY="282.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="thirdDown" layoutX="232.0" layoutY="282.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="firstDown" layoutX="104.0" layoutY="282.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="secondUp" layoutX="168.0" layoutY="154.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="thirdUp" layoutX="232.0" layoutY="154.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="firstUp" layoutX="104.0" layoutY="154.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: #42855B; -fx-border-radius: 5; -fx-border-color: #90B77D; -fx-border-width: 2;" textFill="#483838">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="winText" layoutX="158.0" layoutY="80.0" prefHeight="64.0" prefWidth="85.0">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
